@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Header</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="KalaLogo.png" alt="Logo">
+    </div>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Store</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="join-us">
+        <a href="#">Join Us >></a>
+    </div>
+</header>
+
+
+<div class="container">
+    <img src="landingpic.png" alt="Background Image" class="background-image">
+    <div class="overlay">
+        <div class="content">
+            <div class="content2">
+            <p class="explore">We Build The Future, Build With Us</p>
+            </div>
+            <a href="#" class="button">Explore ></a>
+        </div>
+    </div>
+</div>
+
+<div class="centered-text">WHAT WE BELIEVE IN</div>
+
+<div class="centered-text2">Building Trust, Growing Together &</div>
+<div class="centered-text3">Promoting Our Culture.</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<!-- Lightbox container -->
+<div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <span class="close" onclick="closeLightbox()">&times;</span>
+      <img src="landingpic.png" alt="" id="lightbox-image">
+    </div>
+  </div>
+  
+  <div class="gallery">
+    <div class="thumbnail large" onclick="openLightbox(0)">
+      <img src="landingpic.png" alt="Image 1">
+    </div>
+    <div class="thumbnail-container">
+      <div class="thumbnail" onclick="openLightbox(1)">
+        <img src="landingpic.png" alt="Image 2">
+      </div>
+      <div class="thumbnail" onclick="openLightbox(2)">
+        <img src="landingpic.png" alt="Image 3">
+      </div>
+      <div class="thumbnail" onclick="openLightbox(3)">
+        <img src="landingpic.png" alt="Image 4">
+      </div>
+    </div>
+  </div>
+  <div class="testimonials">Testimonials</div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  <div class="blackline"></div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="button-row">
+    <button class="sellers">90+ Sellers</button>
+    <button class="products">300+ Products</button>
+    <button class="customers">100+ Customers</button>
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="about">ABOUT US</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="survey">
+    <h1>Customer Survey Form</h1>
+    <form id="surveyForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="phone">Phone Number (optional):</label>
+      <input type="tel" id="phone" name="phone"><br><br>
+      <label for="comment">Comment:</label><br>
+      <textarea id="comment" name="comment" rows="4" required></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  
+  <div class="popup" id="popup">
+    <p>Successfully Submitted!</p>
+  </div>
+
+
+  <footer class="footer">
+    <ul>
+        <h2>Learn More</h2>
+        <p>KalaCoach can be your own business platform.</p>
+        <p>Build your future with us and be your own</p>
+        <p>boss in just few clicks.</p>
+        <button class="learn">Get Started</button>
+    </ul>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h4>Help</h4>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Cancellation & Returns</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Report Infringement</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Customer Service</h4>
+        <ul>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Cancellation</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>About Us</h4>
+        <ul>
+          <li><a href="#">About KalaCoach</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Testimonials</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>KalaCoach</h4>
+        <ul>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  
+
+</body>
+<script src="index.js"></script>
+</html>
